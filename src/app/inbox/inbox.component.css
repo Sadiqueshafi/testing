@@ -1,0 +1,27 @@
+.inbox {
+  margin-top: 20px;
+}
+
+.email-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+.card-body{
+  margin: 0px;
+}
+.card{
+  margin: 2px;
+}
+.sender {
+  font-weight: bold;
+}
+
+.subject {
+  font-weight: bold;
+}
+
+.preview {
+  font-style: italic;
+}
