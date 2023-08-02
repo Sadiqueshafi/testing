@@ -1,0 +1,23 @@
+<div class="sent">
+  <h4 style="margin: 10px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: bold;">Send</h4>
+  <div class="container">
+    <div class="col-12">
+      <div class="card" *ngFor="let sentEmail of sentEmails" >
+
+          <div class="card-body">
+            <h6>
+            To:  {{ sentEmail.to }}
+            </h6>
+            <h6>
+              Subject:{{ sentEmail.subject }}
+            </h6>
+
+            <p>Preview:  {{ sentEmail.preview }}</p>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+

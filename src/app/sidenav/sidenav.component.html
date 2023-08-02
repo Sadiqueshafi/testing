@@ -1,0 +1,35 @@
+<!-- <nav class="sidenav">
+  <ul>
+    <li><a routerLink="/inbox" >Inbox</a></li>
+    <li><a routerLink="/sent" >Sent</a></li>
+    <li><a routerLink="../compose" routerLinkActive="active">Compose</a></li>
+  </ul>
+</nav> -->
+<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-dark p-4">
+    <h5 class="text-white h4">Collapsed content</h5>
+    <span class="text-muted">Toggleable via the navbar brand.</span>
+  </div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+  </div>
+</nav>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  <ul>
+    <li><a routerLink="/inbox" routerLinkActive="active" >Inbox</a></li>
+    <li><a routerLink="/sent" routerLinkActive="active" >Sent</a></li>
+    <li><a routerLink="../compose" routerLinkActive="active">Compose</a></li>
+  </ul>
+  </div>
+</div>
